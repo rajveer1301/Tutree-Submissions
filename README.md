@@ -45,3 +45,12 @@ Rotation of the above array by 2 will make array
 My approach: Easy O(n) solution.. self explainatory via code
 
 # Paper 4
+
+Q1 Two elements whose sum is closest to zero.
+
+My approach: Firstly we have to sort the array and take 2 pointers "s" for pointing start and "e" for ending point.
+Then take sum=a[s]+a[e]
+if sum is negative then do s++;
+else do e--
+Continue doing this while s<e
+also keep the track of absolute minimum.
