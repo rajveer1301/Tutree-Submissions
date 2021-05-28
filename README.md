@@ -54,3 +54,5 @@ if sum is negative then do s++;
 else do e--
 Continue doing this while s<e
 also keep the track of absolute minimum.
+
+Q2                              
