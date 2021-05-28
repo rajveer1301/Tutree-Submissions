@@ -55,4 +55,11 @@ else do e--
 Continue doing this while s<e
 also keep the track of absolute minimum.
 
-Q2                              
+Q2 Find duplicates in O(n) time and O(1) extra space.
+      
+My approach: Easy application which can be understood with the code itself
+                              
+   
+Q3 Find the minimum distance between two numbers.
+
+My approach: Take a map and insert the key and store the first occurence of evey number. then take the min index of first occurence of x and y. and then after that index run a loop from that recent index to the n and store the minn distance of x and y.          
